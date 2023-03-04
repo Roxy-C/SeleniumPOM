@@ -1,0 +1,82 @@
+{
+  "positive_data": {
+    "first_name": "Kevin",
+    "last_name": "Lopez",
+    "city": "Jerusalem",
+    "email": "richardsonjennifer@example.org",
+    "mobile": "052",
+    "phone_number": "3332066",
+    "gender": "female",
+    "studies": ["Chemistry", "English", "Math"]
+  },
+  "negative_data_firstname_empty": {
+    "first_name": "",
+    "last_name": "Gibbs",
+    "city": "Hiffa",
+    "email": "fbarrera@example.com",
+    "mobile": "053",
+    "phone_number": "1222148",
+    "gender": "female",
+    "studies": ["English", "POP", "Biology"]
+  },
+  "negative_data_bad_firstname": {
+    "first_name": "32front!",
+    "last_name": "Gibbs",
+    "city": "Hiffa",
+    "email": "fbarrera@example.com",
+    "mobile": "053",
+    "phone_number": "1222148",
+    "gender": "female",
+    "studies": ["English", "POP", "Biology"]
+  },
+  "negative_data_lastname_empty": {
+    "first_name": "Yolanda",
+    "last_name": "",
+    "city": "Hiffa",
+    "email": "dreese@example.net",
+    "mobile": "053",
+    "phone_number": "9241",
+    "gender": "other",
+    "studies": ["English", "Biology", "Physics"]
+  },
+  "negative_data_bad_lastname": {
+    "first_name": "Siron",
+    "last_name": "32front",
+    "city": "Hiffa",
+    "email": "fbarrera@example.com",
+    "mobile": "053",
+    "phone_number": "1222148",
+    "gender": "female",
+    "studies": ["English", "POP", "Biology"]
+  },
+  "negative_data_email_empty": {
+    "first_name": "Alan",
+    "last_name": "Barrett",
+    "city": "Hiffa",
+    "email": "",
+    "mobile": "054",
+    "phone_number": "2352sdf",
+    "gender": "female",
+    "studies": ["Math", "POP", "Chemistry"]
+  },
+  "negative_data_bad_email": {
+    "first_name": "Alan",
+    "last_name": "Barrett",
+    "city": "Hiffa",
+    "email": "RosRos.com",
+    "mobile": "054",
+    "phone_number": "3946318",
+    "gender": "female",
+    "studies": ["Math", "POP", "Chemistry"]
+  },
+  "negative_no_data": {
+    "first_name": "",
+    "last_name": "",
+    "city": "",
+    "email": "",
+    "mobile": "",
+    "phone_number": "",
+    "gender": "",
+    "studies": []
+  }
+}
